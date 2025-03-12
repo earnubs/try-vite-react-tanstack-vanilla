@@ -1,0 +1,26 @@
+{
+  "name": "vite-v-webpack",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@swc/core": "^1.11.9",
+    "@tsconfig/recommended": "^1.0.8",
+    "browserslist": "^4.24.4",
+    "swc-loader": "^0.2.6",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "browserslist": [
+    "last 2 chrome version"
+  ]
+}
