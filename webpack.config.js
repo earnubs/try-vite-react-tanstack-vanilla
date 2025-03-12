@@ -1,3 +1,5 @@
+import { TanStackRouterWebpack } from "@tanstack/router-plugin/webpack";
+
 export default {
   mode: "production",
   experiments: {
@@ -24,4 +26,7 @@ export default {
       },
     ],
   },
+  plugins: [
+    TanStackRouterWebpack({ target: "react", autoCodeSplitting: true }),
+  ],
 };
