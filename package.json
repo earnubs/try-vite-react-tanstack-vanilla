@@ -4,7 +4,6 @@
   "type": "module",
   "module": "index.js",
   "scripts": {
-    "prepare": "panda codegen",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
@@ -15,7 +14,6 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@pandacss/dev": "^0.53.1",
     "@swc/core": "^1.11.9",
     "@tanstack/react-router": "^1.114.17",
     "@tanstack/react-router-devtools": "^1.114.18",

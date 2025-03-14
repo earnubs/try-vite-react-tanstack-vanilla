@@ -1,6 +1,5 @@
 import { Popover } from "radix-ui";
 
-import { css } from "./../../../styled-system/css";
 import classes from "./popover.module.css";
 
 type Props = {
@@ -11,9 +10,7 @@ type Props = {
 export default function MyPopover(props: Props) {
   return (
     <Popover.Root>
-      <Popover.Trigger
-        className={css({ fontSize: "2xl", fontWeight: "normal" })}
-      >
+      <Popover.Trigger>
         {props.trigger}
         <div className={classes.foo}>Boo</div>
       </Popover.Trigger>
