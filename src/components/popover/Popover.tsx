@@ -1,6 +1,7 @@
 import { Popover } from "radix-ui";
 
 import classes from "./popover.module.css";
+import { container } from "./popover.css.ts";
 
 type Props = {
   trigger: React.ReactNode;
@@ -10,7 +11,7 @@ type Props = {
 export default function MyPopover(props: Props) {
   return (
     <Popover.Root>
-      <Popover.Trigger>
+      <Popover.Trigger className={container}>
         {props.trigger}
         <div className={classes.foo}>Boo</div>
       </Popover.Trigger>

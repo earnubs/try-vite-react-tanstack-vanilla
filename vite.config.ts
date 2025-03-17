@@ -2,6 +2,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
+import { vanillaExtractPlugin } from "@vanilla-extract/vite-plugin";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,6 +16,7 @@ export default defineConfig({
     cssMinify: "lightningcss",
   },
   plugins: [
+    vanillaExtractPlugin(),
     TanStackRouterVite({ target: "react", autoCodeSplitting: true }),
     react(),
   ],
