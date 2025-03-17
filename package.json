@@ -16,7 +16,7 @@
   "description": "",
   "devDependencies": {
     "@swc/core": "^1.11.9",
-    "@tanstack/react-router": "^1.114.17",
+    "@tanstack/react-router": "^1.114.23",
     "@tanstack/react-router-devtools": "^1.114.18",
     "@tanstack/router-devtools": "^1.114.17",
     "@tanstack/router-plugin": "^1.114.17",
