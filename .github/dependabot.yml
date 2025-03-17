@@ -1,6 +1,22 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
+    groups:
+      react:
+        patterns:
+          - react
+          - react-dom
+      vite:
+        patterns:
+          - "@vitejs/*"
+          - vite
+          - vitest
+      vanilla:
+        patterns:
+          - "@vanilla-extract/*"
+      tanstack:
+        patterns:
+          - "@tanstack/*"
     directory: "/"
     schedule:
       interval: "weekly"
