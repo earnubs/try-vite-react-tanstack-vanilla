@@ -15,7 +15,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@swc/core": "^1.11.10",
+    "@swc/core": "^1.11.13",
     "@tanstack/react-router": "^1.114.23",
     "@tanstack/react-router-devtools": "^1.114.23",
     "@tanstack/router-devtools": "^1.114.23",
